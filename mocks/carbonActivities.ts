@@ -1,0 +1,60 @@
+import { CarbonActivity } from '@/types';
+
+export const carbonActivities: CarbonActivity[] = [
+  {
+    id: '1',
+    type: 'transport',
+    name: 'Car commute',
+    date: '2025-06-18',
+    carbonAmount: 3.2,
+    icon: 'car',
+  },
+  {
+    id: '2',
+    type: 'food',
+    name: 'Beef dinner',
+    date: '2025-06-18',
+    carbonAmount: 6.5,
+    icon: 'utensils',
+  },
+  {
+    id: '3',
+    type: 'energy',
+    name: 'Home electricity',
+    date: '2025-06-18',
+    carbonAmount: 2.1,
+    icon: 'zap',
+  },
+  {
+    id: '4',
+    type: 'transport',
+    name: 'Bus ride',
+    date: '2025-06-19',
+    carbonAmount: 0.8,
+    icon: 'bus',
+  },
+  {
+    id: '5',
+    type: 'food',
+    name: 'Plant-based lunch',
+    date: '2025-06-19',
+    carbonAmount: 0.5,
+    icon: 'salad',
+  },
+  {
+    id: '6',
+    type: 'shopping',
+    name: 'New t-shirt',
+    date: '2025-06-19',
+    carbonAmount: 4.2,
+    icon: 'shopping-bag',
+  },
+  {
+    id: '7',
+    type: 'transport',
+    name: 'Bike ride',
+    date: '2025-06-20',
+    carbonAmount: 0,
+    icon: 'bike',
+  },
+];

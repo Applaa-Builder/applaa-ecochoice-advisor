@@ -1,0 +1,68 @@
+import { SustainabilityTip } from '@/types';
+
+export const sustainabilityTips: SustainabilityTip[] = [
+  {
+    id: '1',
+    category: 'food',
+    title: 'Eat Seasonal and Local',
+    description: 'Choose locally grown, seasonal produce to reduce transportation emissions and support local farmers.',
+    impact: 'high',
+    imageUrl: 'https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+  },
+  {
+    id: '2',
+    category: 'energy',
+    title: 'Unplug Electronics',
+    description: 'Unplug chargers and electronics when not in use to prevent phantom energy usage.',
+    impact: 'medium',
+    imageUrl: 'https://images.unsplash.com/photo-1544724569-5f546fd6f2b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+  },
+  {
+    id: '3',
+    category: 'water',
+    title: 'Collect Rainwater',
+    description: 'Use rain barrels to collect water for your garden and plants, reducing tap water usage.',
+    impact: 'medium',
+    imageUrl: 'https://images.unsplash.com/photo-1541480110211-73bb1683a4c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80',
+  },
+  {
+    id: '4',
+    category: 'waste',
+    title: 'Start Composting',
+    description: 'Turn food scraps into nutrient-rich soil for your garden instead of sending them to landfills.',
+    impact: 'high',
+    imageUrl: 'https://images.unsplash.com/photo-1591955506264-3f5a6834570a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+  },
+  {
+    id: '5',
+    category: 'transport',
+    title: 'Bike for Short Trips',
+    description: 'Use a bicycle for trips under 2 miles to reduce emissions and improve your health.',
+    impact: 'high',
+    imageUrl: 'https://images.unsplash.com/photo-1519583272095-6433daf26b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1989&q=80',
+  },
+  {
+    id: '6',
+    category: 'general',
+    title: 'Use Reusable Bags',
+    description: 'Bring your own bags when shopping to reduce plastic waste and pollution.',
+    impact: 'medium',
+    imageUrl: 'https://images.unsplash.com/photo-1610977294514-a2be7f0246cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+  },
+  {
+    id: '7',
+    category: 'food',
+    title: 'Reduce Meat Consumption',
+    description: 'Try meatless Mondays to lower your carbon footprint and explore plant-based alternatives.',
+    impact: 'high',
+    imageUrl: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+  },
+  {
+    id: '8',
+    category: 'energy',
+    title: 'Switch to LED Bulbs',
+    description: 'Replace incandescent bulbs with energy-efficient LEDs to save electricity and money.',
+    impact: 'medium',
+    imageUrl: 'https://images.unsplash.com/photo-1532006066969-0c8dc74e2d1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+  },
+];
